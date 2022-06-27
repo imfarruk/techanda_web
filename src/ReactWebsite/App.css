@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Open Sans;
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100% !important;
+}
+
+/*--------------------NavBAr---------------------*/
+.ml-auto {
+  margin-left: auto !important;
+}
+.md-auto {
+  margin: auto !important;
+}
+
+.brand_logo {
+  width: 50px;
+  height: 50px;
+}
+
+.nav_bg {
+  background-color: white !important;
+  color: black !important;
+}
+.navbar-brand {
+  font-size: 2.9rem !important;
+  color: blueviolet !important;
+  font-weight: 600;
+  font-family: cursive;
+}
+
+.navbar a {
+  font-size: 1.2rem !important;
+  text-transform: capitalize;
+}
+.navbar a:hover {
+  color: brown !important;
+}
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid green;
+}
+
+/*-------------Home Page ----------------*/
+
+#header {
+  margin-top: 35px;
+}
+
+.brand-name {
+  color: blue;
+  font-size: 2.3rem;
+  font-weight: 800;
+  letter-spacing: 5px;
+  padding-left: 20px;
+  text-shadow: 2px 3px 6px;
+}
+.brand-name:hover {
+  text-shadow: 1px 5px 9px red;
+  cursor: pointer;
+}
+
+.btn {
+  transition: 0.8s !important;
+}
+.btn:hover {
+  color: rgb(235, 231, 35) important;
+  background-color: coral !important;
+  border-radius: 30px;
+  box-shadow: 2px 1px 14px 3px rgb(72, 39, 223);
+}
+
+.img-fluid {
+  width: 600px;
+  height: 450px !important;
+  animation: bounce 7000ms infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-40px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  70% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+
+/*-------------About Page ----------------*/
+
+.info {
+  font-size: 24px;
+  font-family: cursive;
+}
+
+/*-------------Service Page ----------------*/
+
+.service_head {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 900;
+  text-shadow: 2px 1px 2px red;
+}
+
+.card_body {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 300px;
+  height: 400px;
+  box-sizing: border-box;
+  margin: 20px;
+  border-radius: 30px !important;
+  padding-bottom: 10px;
+}
+
+.card:hover {
+  box-sizing: border-box;
+  box-shadow: 12px 6px 5px;
+  z-index: 1;
+}
+.card_img {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 260px !important;
+  margin: auto;
+  padding: 5px 5px;
+  align-items: center;
+}
+
+.contact_div {
+  margin-top: 30px !important;
+  text-align: center;
+}
+
+/*--------------------Footer---------------------*/
+.Footer {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  padding-top: 35px;
+  justify-content: center;
+}
